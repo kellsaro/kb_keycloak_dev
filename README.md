@@ -1,4 +1,5 @@
 # kb_keycloak_dev
+
 Keycloak 10.0.2 server configured for custom development
 
 The configuration are based on Keycloak-containers[https://github.com/keycloak/keycloak-containers]
