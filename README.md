@@ -12,4 +12,4 @@ The configuration are based on Keycloak-containers[https://github.com/keycloak/k
 - Go to `http://localhost:8080`and use user `admin` with password `admin`
 
 **Run directly using docker**
-- In the console type: `docker run TODO`
+- In the console type: `docker run -p 8080:8080 --detach --name kb_keycloak_dev kellsaro/kb_keycloak_dev:latest`
