@@ -3,7 +3,7 @@ Keycloak 10.0.2 server configured for custom development
 
 The configuration are based on Keycloak-containers[https://github.com/keycloak/keycloak-containers]
 
-# Instructions
+## Usage
 **Download, build and run**
 
 - Download or clone this repo
@@ -11,5 +11,5 @@ The configuration are based on Keycloak-containers[https://github.com/keycloak/k
 - Run: `docker run -p 8080:8080 --detach --name kb_keycloak_dev kb_keycloak_dev:1.0`
 - Go to `http://localhost:8080`and use user `admin` with password `admin`
 
-## Run directly using docker
+**Run directly using docker**
 - In the console type: `docker run TODO`
