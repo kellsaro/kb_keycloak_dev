@@ -1,0 +1,88 @@
+{
+  "realm" : "dev",
+  "users" : [ {
+    "id" : "652365a3-784d-4e83-ad18-9cd2c3c8caee",
+    "createdTimestamp" : 1591622905069,
+    "username" : "employee1",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "credentials" : [ {
+      "id" : "32581cde-48c1-48e8-ae5c-d44c4dfd7813",
+      "type" : "password",
+      "createdDate" : 1591622987152,
+      "secretData" : "{\"value\":\"rMc3eH4BRcZQT1RR+rQXRrUNW0NoRCSfZjos/IBGwcMhiHkXbauNK+VGmK7ArZJ/ABakFEdIjvRMfVlaxSIP2g==\",\"salt\":\"xNVWdb3Vu8WxGkZ5veTGsQ==\"}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\"}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "offline_access", "uma_authorization", "app-user" ],
+    "clientRoles" : {
+      "account" : [ "view-profile", "manage-account" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "f5970022-4e76-46f6-850e-862007cdfeaa",
+    "createdTimestamp" : 1591623027241,
+    "username" : "employee2",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "credentials" : [ {
+      "id" : "f0ecba43-72b9-4b90-b296-3a10142ee310",
+      "type" : "password",
+      "createdDate" : 1591623044769,
+      "secretData" : "{\"value\":\"Il3T+uF/pVsi8/NGrPGz082iemTh8rdUs12SbFmHX0EvGUF2R4Bf48gPG25Kq9ZFjviU+SGkvWG/7ekqufsyEg==\",\"salt\":\"pgmtbZ7MGN3wlffD3kHSJw==\"}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\"}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "app-staff", "offline_access", "uma_authorization" ],
+    "clientRoles" : {
+      "account" : [ "view-profile", "manage-account" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "44707688-7335-4d34-a0c3-c9471541eca8",
+    "createdTimestamp" : 1591623084802,
+    "username" : "employee3",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "credentials" : [ {
+      "id" : "93f0cb2b-04a8-4b98-8650-76c2cb912647",
+      "type" : "password",
+      "createdDate" : 1591623096633,
+      "secretData" : "{\"value\":\"gR5UFnyPoQYYOChNw8zk2e8Nhofk5uT+h95Huxmw+N/p7BnbE7n862jKpAGZPSTyMWJCzVKgp4Cfwdms7z/KmA==\",\"salt\":\"HNf6GiVYc0V5IHK7SZIsag==\"}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\"}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "app-staff", "offline_access", "uma_authorization", "app-user" ],
+    "clientRoles" : {
+      "account" : [ "view-profile", "manage-account" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "535f4ce7-598f-476b-aa96-f5657c1879e0",
+    "createdTimestamp" : 1591622627459,
+    "username" : "service-account-kinder-admin-service",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "serviceAccountClientId" : "kinder-admin-service",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "offline_access", "uma_authorization" ],
+    "clientRoles" : {
+      "kinder-admin-service" : [ "uma_protection" ],
+      "account" : [ "view-profile", "manage-account" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
