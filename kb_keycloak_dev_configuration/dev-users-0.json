@@ -43,7 +43,7 @@
       "account" : [ "view-profile", "manage-account" ]
     },
     "notBefore" : 0,
-    "groups" : [ ]
+    "groups" : [ "/tenant-1" ]
   }, {
     "id" : "44707688-7335-4d34-a0c3-c9471541eca8",
     "createdTimestamp" : 1591623084802,
@@ -67,8 +67,8 @@
     "notBefore" : 0,
     "groups" : [ ]
   }, {
-    "id" : "535f4ce7-598f-476b-aa96-f5657c1879e0",
-    "createdTimestamp" : 1591622627459,
+    "id" : "8f6222b5-ccd9-4af9-8aee-4adadaf7a90a",
+    "createdTimestamp" : 1597888263404,
     "username" : "service-account-kinder-admin-service",
     "enabled" : true,
     "totp" : false,
